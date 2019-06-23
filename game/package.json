@@ -1,0 +1,25 @@
+{
+  "name": "smpl-game",
+  "version": "0.0.1",
+  "description": "a playable resume",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "jest -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkitect/smpl.git"
+  },
+  "author": "Jefferson Clark <jefferson@clarkitect.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkitect/smpl/issues"
+  },
+  "homepage": "https://github.com/clarkitect/smpl#readme",
+  "dependencies": {
+    "phaser": "^3.18.1"
+  }
+}
