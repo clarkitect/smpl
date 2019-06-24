@@ -1,7 +1,6 @@
 export default class Logo extends Phaser.GameObjects.Sprite {
   /**
-   *  A simple prefab (extended game object class), displaying a spinning
-   *  Phaser 3 logo.
+   *  Display a title
    *
    *  @extends Phaser.GameObjects.Sprite
    */
@@ -16,9 +15,9 @@ export default class Logo extends Phaser.GameObjects.Sprite {
   }
 
   /**
-   *  Increment the angle smoothly.
+   *  Animate the Logo ... maybe
    */
   update() {
-    this.angle += 0.1;
+    // todo: maybe a little animated sparkle
   }
 }
