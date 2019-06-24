@@ -18,7 +18,7 @@ module.exports = [
   //  - <https://github.com/babel/babel-loader#readme>
   {
     test: /\.js$/,
-    include: dirs.scripts,
+    include: dirs.src,
     loader: 'babel-loader',
     options: {
       presets: [
@@ -45,7 +45,7 @@ module.exports = [
   //  - <https://github.com/webpack-contrib/eslint-loader#readme>
   {
     test: /\.js$/,
-    include: dirs.scripts,
+    include: dirs.src,
     enforce: 'pre',
     loader: 'eslint-loader',
     options: {

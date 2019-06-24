@@ -16,7 +16,7 @@ export default class SplashScreen extends Phaser.Scene {
           key: 'splash-screen',
           type: 'image'
         }, {
-          key: 'progress-bar',
+          key: 'loading-bar',
           type: 'image'
         }]
       }
@@ -66,10 +66,10 @@ export default class SplashScreen extends Phaser.Scene {
    */
   showProgressBar() {
     //  Get the progress bar filler texture dimensions.
-    const {width: w, height: h} = this.textures.get('progress-bar').get();
+    const {width: w, height: h} = this.textures.get('loading-bar').get();
 
     //  Place the filler over the progress bar of the splash screen.
-    const img = this.add.sprite(82, 282, 'progress-bar').setOrigin(0);
+    const img = this.add.sprite(82, 282, 'loading-bar').setOrigin(0);
 
     //  Crop the filler along its width, proportional to the amount of files
     //  loaded.

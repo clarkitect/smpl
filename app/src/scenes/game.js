@@ -2,7 +2,7 @@ import Logo from '@/objects/logo';
 
 export default class Game extends Phaser.Scene {
   /**
-   *  A sample Game scene, displaying the Phaser logo.
+   *  Smple game main
    *
    *  @extends Phaser.Scene
    */
@@ -11,21 +11,19 @@ export default class Game extends Phaser.Scene {
   }
 
   /**
-   *  Called when a scene is initialized. Method responsible for setting up
-   *  the game objects of the scene.
-   *
+   *  Initialization of scene; setup any game objects
    *  @protected
    *  @param {object} data Initialization parameters.
    */
-  create(/* data */) {
-    //  TODO: Replace this content with really cool game code here :)
+  create() {
+    // todo: write game!
     this.logo = this.add.existing(new Logo(this));
   }
 
   /**
-   *  Called when a scene is updated. Updates to game logic, physics and game
-   *  objects are handled here.
    *
+   * Render scene 
+   * 
    *  @protected
    *  @param {number} t Current internal clock time.
    *  @param {number} dt Time elapsed since last update.

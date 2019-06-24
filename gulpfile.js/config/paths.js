@@ -23,5 +23,5 @@ exports.dirs = {
   static: resolve(exports.src, 'static/'),
 
   //  Where application modules that require compilation are kept.
-  scripts: resolve(exports.src, 'scripts/')
+  src: resolve(exports.src, 'src/')
 };

@@ -23,5 +23,5 @@ module.exports = {
   },
 
   //  Always reload the application page when files in these paths change.
-  files: [`${dirs.static}/**`, `${dirs.scripts}/**`]
+  files: [`${dirs.static}/**`, `${dirs.src}/**`]
 };

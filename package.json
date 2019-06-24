@@ -6,8 +6,8 @@
   "scripts": {
     "clean": "gulp clean",
     "dist": "gulp dist",
-    "format": "eslint \"app/scripts/**/*.js\" --fix",
-    "lint": "eslint \"app/scripts/**/*.js\"",
+    "format": "eslint \"app/source/**/*.js\" --fix",
+    "lint": "eslint \"app/src/**/*.js\"",
     "start": "gulp"
   },
   "devDependencies": {

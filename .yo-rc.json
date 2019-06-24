@@ -5,15 +5,15 @@
       "creationDate": "2019-06-23T23:23:51.328Z"
     },
     "objects": {
-      "dest": "app/scripts/objects/"
+      "dest": "app/src/objects/"
     },
     "plugins": {
-      "dest": "app/scripts/plugins/"
+      "dest": "app/src/plugins/"
     },
     "scenes": {
-      "dest": "app/scripts/scenes/",
+      "dest": "app/src/scenes/",
       "index": {
-        "name": "app/scripts/scenes/index.js",
+        "name": "app/src/scenes/index.js",
         "requirePath": "./"
       }
     }

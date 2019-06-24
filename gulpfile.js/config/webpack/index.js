@@ -24,7 +24,7 @@ module.exports = (env = 'development') => ({
   //  declared first to become available globally.
   entry: {
     vendor: ['phaser'],
-    app: [dirs.scripts]
+    app: [dirs.src]
   },
 
   //  Options instructing Webpack how and where to write compiled bundles.
@@ -44,7 +44,7 @@ module.exports = (env = 'development') => ({
 
     alias: {
       //  For convenience, makes '@' an alias of the source directory.
-      '@': dirs.scripts
+      '@': dirs.src
     }
   },
 

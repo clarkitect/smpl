@@ -2,7 +2,7 @@
  *  `compile` task
  *  ==============
  *
- *  Compile scripts in production mode using Webpack.
+ *  Compile src in production mode using Webpack.
  */
 
 const log = require('fancy-log');
@@ -23,6 +23,6 @@ const compile = done => {
     done();
   });
 };
-compile.description = `Compile scripts in production mode using Webpack.`;
+compile.description = `Compile src in production mode using Webpack.`;
 
 module.exports = compile;
