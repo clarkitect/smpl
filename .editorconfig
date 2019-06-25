@@ -12,9 +12,9 @@ trim_trailing_whitespace = true
 
 # JavaScript
 [*.js]
-indent_size = 2
+indent_size = 4
 indent_style = space
 
 # Markdown
 [*.md]
-indent_size = 4
+indent_size = 2
