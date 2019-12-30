@@ -47,7 +47,7 @@ module.exports = (env = 'development') =>
     //  Reference:
     //    <https://github.com/webpack-contrib/copy-webpack-plugin#readme>
     new Copy([{
-      from: dirs.static,
+      from: dirs.art,
       to: dest
     }])
   ].filter(Boolean);

@@ -15,7 +15,7 @@ module.exports = {
   notify: false,
   ghostMode: false,
   server: {
-    baseDir: [dirs.static]
+    baseDir: [dirs.art]
   },
   middleware: [],
   watchOptions: {
@@ -23,5 +23,5 @@ module.exports = {
   },
 
   //  Always reload the application page when files in these paths change.
-  files: [`${dirs.static}/**`, `${dirs.src}/**`]
+  files: [`${dirs.art}/**`, `${dirs.src}/**`]
 };

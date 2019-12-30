@@ -15,12 +15,12 @@ import * as scenes from '@/scenes';
 /**
  *  Game canvas width.
  */
-export const width = 640;
+export const width = 1280;
 
 /**
  *  Game canvas height.
  */
-export const height = 480;
+export const height = 1024;
 
 /**
  *  Adjust zoom factor.
@@ -108,7 +108,7 @@ export const physics = {
  *  Global parameters of the asset manager.
  */
 export const loader = {
-  //  HINT: Put all your game assets in the `app/static/assets/` directory.
+  //  HINT: Put all your game assets in the `app/art/assets/` directory.
   path: 'assets/'
 };
 

@@ -18,9 +18,9 @@ exports.dest = resolve(exports.root, 'dist/');
 
 //  Paths to specific directories.
 exports.dirs = {
-  //  From where static assets should be served during development and copied
+  //  From where art assets should be served during development and copied
   //  from in distribution builds.
-  static: resolve(exports.src, 'static/'),
+  art: resolve(exports.src, 'art/'),
 
   //  Where application modules that require compilation are kept.
   src: resolve(exports.src, 'src/')
